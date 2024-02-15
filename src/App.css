@@ -1,11 +1,157 @@
-.App {
+body{
+  background-color: azure;
+}
+.nav-ul li{
+  display: inline-block;
+  padding: 8px;
+  /* background-color: #ff001a; */
+  margin-left: 4px;
+  margin-right: 4px;
+}
+.nav-ul li a{
+  text-decoration: none;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 800;
+}
+.nav-right{
+  text-align: right;
+}
+.nav-ul{
+  margin: 0px;
+  padding: 12px;
+  background-color: black;
+}
+.Footer{
+  position: absolute;
+  bottom: 0px;
+  color: white;
+  text-align: center;
+  width: 100%;
+  background-color: #2c2121;
+}
+.SignUp{
+  width: 237px;
+  background-color: azure;
+  padding-left: 90px;
+  padding-right: 90px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  position: absolute;
+  left: 35%;
+
+}
+.SignUp h1{
+  text-align: center;
+}
+.Login , .product{
+  width: 237px;
+  background-color: azure;
+  padding-left: 90px;
+  padding-right: 90px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  position: absolute;
+  left: 35%;
+}
+.inputBox{
+  display: block;
+  width: 200px;
+  padding: 12px;
+  margin-left: 3px;
+  border: 2px solid black;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin:2px;
+}
+.SignUp_button{
+  margin-left: 72px;
+  padding: 10px;
+  color: white;
+  background-color: #000000;
+  font-weight: 700;
+  cursor: pointer;
+  letter-spacing: 2px;
+}
+
+.Login_button {
+  margin-left: 82px;
+  margin-top: 12px;
+  padding: 10px;
+  color: white;
+  background-color: black;
+  font-weight: 700;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+.add-product-btn {
+  margin-left: 61px;
+  padding: 10px;
+  color: black;
+  background-color: red;
+  font-weight: 700;
+  cursor: pointer;
+}
+.inputBox_login{
+  margin: 0px;
+  margin-left: 0px;
+  width: 200px;
+  padding: 12px;
+  margin-top: 2px;
+  margin-bottom: 11px;
+
+}
+
+.Login h4{
+  margin: 0px;
+}
+
+
+.Login h1 , .product h1{
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.invalid-text{
+  color:red;
+  font-weight: 500;
 }
+
+.product-List{
+  text-align: center;
+  padding:0px;
+  margin: 0;
+  background-color: rgb(32 163 163);
+  padding-bottom: 25px;
+}
+
+.product-List h1{
+  margin-top: 0px;
+  padding-top: 30px;
+  color: white;
+  letter-spacing: 2px;
+}
+
+.product-List h3{
+  color: white;
+    letter-spacing: 2px;
+}
+
+.product-List ul li{
+  display: inline-block;
+  border: 2px solid white;
+  padding: 13px;
+  letter-spacing: 2px;
+  width: 188px;
+  color: white;
+  margin: 1px;
+}
+
+.product-List ul{
+  margin: 0px;
+  padding: 0px;
+}
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -27,6 +173,48 @@
 .App-link {
   color: #61dafb;
 }
+
+.nav-right{
+  text-align: right;
+}
+.nav-right li{
+  padding: 8px;
+  background-color: #ff001a;
+  margin-left: 4px;
+  margin-right: 4px;
+}
+
+.Product-list-input{
+  width: 200px;
+    padding: 8px;
+}
+
+.projectList-delete-btn{
+  background: none;
+    border: none;
+    font-size: 14px;
+    letter-spacing: 2px;
+    cursor: pointer;
+    color: white;
+}
+.projectList-delete-btn:hover{
+  color: red;
+  font-weight: 600;
+}
+
+.projectList-update-btn{
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+  letter-spacing: 2px;
+  color: white;
+}
+
+.projectList-update-btn:hover{
+  color: red;
+  font-weight: 600;
+}
+
 
 @keyframes App-logo-spin {
   from {
